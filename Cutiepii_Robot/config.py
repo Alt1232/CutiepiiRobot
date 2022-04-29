@@ -12,6 +12,12 @@ class Config(object):
     API_ID = 8781248
     JOIN_LOGGER = -1001734388320
     ALLOW_CHATS =  -1001734388320
+    TIGERS = 1174557449
+    WOLVES = 1174557449
+    DEMONS = 1174557449
+    DRAGONS = 1174557449
+    
+    
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgresql://tcuboige:nx6zP25bryt_KY89txDNClou1CUxu0-f@isilo.db.elephantsql.com/tcuboige"  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
