@@ -11,7 +11,7 @@ class Config(object):
     API_HASH = "329a9246cc001b67895fd68a85d0f867" # for purge stuffs
     API_ID = 8781248
     JOIN_LOGGER = -1001734388320
-
+    ALLOW_CHATS =  -1001734388320
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgresql://tcuboige:nx6zP25bryt_KY89txDNClou1CUxu0-f@isilo.db.elephantsql.com/tcuboige"  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
