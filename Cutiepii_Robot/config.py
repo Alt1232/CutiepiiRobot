@@ -16,8 +16,8 @@ class Config(object):
     WOLVES = [1174557449]
     DEMONS = [1174557449]
     DRAGONS = [1174557449]
-    
-    
+    EVENT_LOGS = None
+    ERROR_LOGS = None
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgresql://tcuboige:nx6zP25bryt_KY89txDNClou1CUxu0-f@isilo.db.elephantsql.com/tcuboige"  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
